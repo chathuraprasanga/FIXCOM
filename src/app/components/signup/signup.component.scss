@@ -1,0 +1,46 @@
+.login-card{
+    width: 450px;
+    margin: auto;
+
+}
+
+.logo{
+    width: 50%;
+    margin-left: 25%;
+}
+
+.login-input{
+    margin: 2%;
+    width: 96%;
+}
+
+.login-btn{
+    margin: 2%;
+    height: 45px;
+    border-radius:2px;
+    color: white;
+    font-size: 18px;
+    background-color: #0F52BA;
+    border-color: transparent;
+    
+}
+.signup-btn{
+    margin: 2%;
+    width: 96%;
+    height: 45px;
+    border-radius:2px;
+    color: white;
+    font-size: 18px;
+    background-color: green;
+    border-color: transparent;
+}
+
+.forogot-passsword-text{
+    text-decoration: none;
+    margin: 2%;
+    text-decoration-color: black;
+}
+
+.mat-hint{
+    color: red;
+}
