@@ -3,8 +3,6 @@
         <img src="../../../assets/FIXCOM2.jpg" alt="FIXCOM" class="logo" />
         <br />
 
-
-
         <mat-form-field class="login-input">
             <mat-label>Username</mat-label>
             <input matInput formControlName="name" required />
@@ -65,6 +63,8 @@
             [disabled]="validateSubmit() || !(signupForm.valid && signupForm.dirty)">
             signup
         </button>
+
+        <p style="text-align: center;"> <a routerLink="/login" class="login-text">Do you have account?</a> </p>
 
     </form>
 

@@ -59,6 +59,7 @@ import {
   PB_DIRECTION,
   NgxUiLoaderService
 } from "ngx-ui-loader";
+import { DashboardComponent } from './components/dashboard/dashboard.component';
 
 
 
@@ -81,6 +82,7 @@ const ngxUiLoaderConfig: NgxUiLoaderConfig ={
     LoginComponent,
     SignupComponent,
     ForgotPasswordComponent,
+    DashboardComponent,
   ],
   imports: [
     BrowserModule,
